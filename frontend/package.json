@@ -1,0 +1,18 @@
+{
+  "name": "multi-agent-research-ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "bridge": "node server/api-bridge.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "marked": "^18.0.6",
+    "vite": "^6.0.7"
+  }
+}

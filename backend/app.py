@@ -15,7 +15,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173", 
-        "https://multi-agent-system-beryl.vercel.app" # Vite frontend
+        "https://multi-agent-system-r8eqg15j3-ishika-bansal123s-projects.vercel.app" # Vite frontend
     ],
     allow_credentials=True,
     allow_methods=["*"],

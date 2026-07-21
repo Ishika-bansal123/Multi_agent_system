@@ -1,8 +1,7 @@
 import "./styles.css";
 import { marked } from "marked";
 const API_URL =
-  import.meta.env.VITE_RESEARCH_API_URL ||
-  "http://127.0.0.1:8000/research";
+  import.meta.env.VITE_RESEARCH_API_URL 
 const sampleResult = {
   search_results:
     "Title : The State of Generative AI in Enterprise Research\nURL: https://example.com/genai-enterprise-research\nSnippet: Organizations are using AI agents to gather evidence, compare sources, synthesize insights, and accelerate decision-making.\n\n-----\nTitle : Multi-Agent Systems for Knowledge Work\nURL: https://example.com/multi-agent-systems\nSnippet: Specialized agents can divide tasks such as discovery, extraction, drafting, and review to improve output quality.",
